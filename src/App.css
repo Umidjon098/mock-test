@@ -1,0 +1,25 @@
+body {
+    background: white;
+    /* Make it white if you need */
+
+}
+
+
+li:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+li {
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.active {
+    border-color: red;
+    font-weight: strong;
+    border-width: 3px;
+}
